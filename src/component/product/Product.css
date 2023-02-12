@@ -1,0 +1,115 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.my-product-block, .router {
+    margin-left: 10%;
+}
+
+.my-product-block {
+    width: 145px;
+    height: auto;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.router {
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-grid {
+    width: 30px;
+}
+
+.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-evenly;
+}
+
+.list-grid-button {
+    border: none;
+}
+
+.load {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.created-by {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.not-found {
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
+
+.not-found-text {
+    text-align: center;
+    margin-top: 3%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    z-index: -1;
+}
+
+.not-found-text-h1 {
+    margin-bottom: 3%;
+}
+
+.to-minigame {
+    margin-top: -100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: sticky;
+    top: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 93%;
+    z-index: 1;
+}
+
+.egg-mini {
+    width: 70px;
+}
+
+@media only screen and (max-width: 991px) {
+    .to-minigame {
+        margin-top: -100px;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        position: sticky;
+        top: 88%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 93%;
+        z-index: 1;
+    }
+
+    .egg-mini {
+        width: 50px;
+    }
+}

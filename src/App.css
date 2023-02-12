@@ -1,0 +1,7 @@
+.not-found {
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
